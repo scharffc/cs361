@@ -29,9 +29,17 @@ hs_err_pid*
 bin/
 gen/
 out/
+<<<<<<< HEAD
+=======
+.metadata/
+>>>>>>> master
 
 # solutions
 *sol/
 **sol/
 *sol
+<<<<<<< HEAD
 **sol
+=======
+**sol
+>>>>>>> master
