@@ -29,6 +29,7 @@ hs_err_pid*
 bin/
 gen/
 out/
+.metadata/
 
 # solutions
 *sol/
