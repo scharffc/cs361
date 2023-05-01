@@ -14,13 +14,13 @@ public class Fibonacci {
 	 * 
 	 * @param n
 	 * @return the fibonacci of n
-	 * @throws IllegalArgumentException if n < 0 or n > 45. Fibonacci should not
+	 * @throws IllegalArgumentException if n < 0 or n > 46. Fibonacci should not
 	 *                                  accept a negative number as an argument. For
-	 *                                  n > 45, fibonacci(n) is not an int anymore.
+	 *                                  n > 46, fibonacci(n) is not an int anymore.
 	 */
 	public static int fibonacci(int n) {
-		if (n < 0 || n > 45) {
-			throw new IllegalArgumentException("n should be between 0 and 45");
+		if (n < 0 || n > 46) {
+			throw new IllegalArgumentException("n should be between 0 and 46");
 		} else {
 			if (n == 0 || n == 1) {
 				return 1;
