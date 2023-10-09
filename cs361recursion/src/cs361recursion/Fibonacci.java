@@ -19,7 +19,7 @@ public class Fibonacci {
 	 *                                  n > 45, fibonacci(n) is not an int anymore.
 	 */
 	public static int fibonacci(int n) {
-		if (n < 0 || n > 46) {
+		if (n < 0 || n > 45) {
 			throw new IllegalArgumentException("n should be between 0 and 45");
 		} else {
 			if (n == 0 || n == 1) {
